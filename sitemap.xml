@@ -119,13 +119,6 @@
 
   
   <url>
-    <loc>https://mieawentuirba.github.io/tags/%E5%A1%AB%E7%A9%BA%E7%BB%83%E4%B9%A0/</loc>
-    <lastmod>2025-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mieawentuirba.github.io/tags/Python-Manim/</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -133,7 +126,7 @@
   </url>
   
   <url>
-    <loc>https://mieawentuirba.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://mieawentuirba.github.io/tags/%E5%A1%AB%E7%A9%BA%E7%BB%83%E4%B9%A0/</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -146,17 +139,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://mieawentuirba.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2025-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://mieawentuirba.github.io/categories/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
+    <loc>https://mieawentuirba.github.io/categories/Python/</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mieawentuirba.github.io/categories/Python/</loc>
+    <loc>https://mieawentuirba.github.io/categories/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

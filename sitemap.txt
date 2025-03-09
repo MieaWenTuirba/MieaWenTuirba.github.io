@@ -11,10 +11,10 @@ https://mieawentuirba.github.io/archives/index.html
 https://mieawentuirba.github.io/tags/index.html
 https://mieawentuirba.github.io/categories/index.html
 https://mieawentuirba.github.io/
-https://mieawentuirba.github.io/tags/%E5%A1%AB%E7%A9%BA%E7%BB%83%E4%B9%A0/
 https://mieawentuirba.github.io/tags/Python-Manim/
-https://mieawentuirba.github.io/tags/%E5%AD%A6%E4%B9%A0/
+https://mieawentuirba.github.io/tags/%E5%A1%AB%E7%A9%BA%E7%BB%83%E4%B9%A0/
 https://mieawentuirba.github.io/tags/%E5%B7%A5%E4%BD%9C/
-https://mieawentuirba.github.io/categories/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%A6/
+https://mieawentuirba.github.io/tags/%E5%AD%A6%E4%B9%A0/
 https://mieawentuirba.github.io/categories/Python/
+https://mieawentuirba.github.io/categories/%E6%95%99%E8%82%B2%E5%BF%83%E7%90%86%E5%AD%A6/
 https://mieawentuirba.github.io/categories/%E8%87%AA%E5%AD%A6%E6%80%9D%E8%80%83/
