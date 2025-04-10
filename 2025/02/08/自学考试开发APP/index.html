@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha256-5eIC48iZUHmSlSUz9XtjRyK2mzQkHScZY1WdMaoz74E=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"mieawentuirba.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12,"b2t":true},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="在自主学习的过程当中，发现国外的自学考试APP十分昂贵，高达2000元&#x2F;年，在2025年之后希望能破除自学考试资源匮乏的难题。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自学考试开发APP">
+<meta property="og:url" content="https://mieawentuirba.github.io/2025/02/08/%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E5%BC%80%E5%8F%91APP/index.html">
+<meta property="og:site_name" content="逸远的思考小屋">
+<meta property="og:description" content="在自主学习的过程当中，发现国外的自学考试APP十分昂贵，高达2000元&#x2F;年，在2025年之后希望能破除自学考试资源匮乏的难题。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-02-08T15:49:08.476Z">
+<meta property="article:modified_time" content="2025-01-25T16:29:56.023Z">
+<meta property="article:author" content="逸远风沙">
+<meta property="article:tag" content=" 工作 ">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://mieawentuirba.github.io/2025/02/08/%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E5%BC%80%E5%8F%91APP/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://mieawentuirba.github.io/2025/02/08/%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E5%BC%80%E5%8F%91APP/","path":"2025/02/08/自学考试开发APP/","title":"自学考试开发APP"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>自学考试开发APP | 逸远的思考小屋</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="逸远的思考小屋" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">逸远的思考小屋</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">在这里记录逸远的思考</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="逸远风沙"
+      src="/images/yiyuan.jpg">
+  <p class="site-author-name" itemprop="name">逸远风沙</p>
+  <div class="site-description" itemprop="description">学习思考狂人</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://mieawentuirba.github.io/2025/02/08/%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E5%BC%80%E5%8F%91APP/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/yiyuan.jpg">
+      <meta itemprop="name" content="逸远风沙">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逸远的思考小屋">
+      <meta itemprop="description" content="学习思考狂人">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="自学考试开发APP | 逸远的思考小屋">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          自学考试开发APP
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-02-08 23:49:08" itemprop="dateCreated datePublished" datetime="2025-02-08T23:49:08+08:00">2025-02-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-01-26 00:29:56" itemprop="dateModified" datetime="2025-01-26T00:29:56+08:00">2025-01-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%87%AA%E5%AD%A6%E6%80%9D%E8%80%83/" itemprop="url" rel="index"><span itemprop="name">自学思考</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>在自主学习的过程当中，发现国外的自学考试APP十分昂贵，高达2000元/年，在2025年之后希望能破除自学考试资源匮乏的难题。</p>
+</blockquote>
+<span id="more"></span>
+<p>以下是一些随笔：</p>
+<p>如果开发的是Windows平台的学习APP，开发流程和要点与移动端有一些不同，以下是针对Windows平台的详细说明：</p>
+<p><strong>一、需求分析阶段</strong></p>
+<ol type="1">
+<li><strong>目标用户</strong>
+<ul>
+<li>对于Windows平台，目标用户可能是学生（尤其是大学生和研究生，他们可能使用电脑进行专业课程学习和考试备考）、职场人士（用于专业技能培训和考试，如编程语言学习、项目管理考试等）以及一些有特殊学习需求的群体（如需要使用电脑辅助学习的残障人士等）。</li>
+</ul></li>
+<li><strong>功能需求</strong>
+<ul>
+<li><strong>题库管理</strong>
+<ul>
+<li>除了前面提到的分类、导入、更新等功能外，Windows平台的题库管理可以支持更复杂的数据导入格式，如数据库文件（如Access数据库文件）导入。因为Windows用户可能更习惯使用一些桌面办公软件生成的数据格式。</li>
+<li>解析功能可以更加详细，除了文字解析外，还可以嵌入一些本地的多媒体文件（如本地存储的视频讲解文件），方便用户在没有网络的情况下也能查看解析。</li>
+</ul></li>
+<li><strong>考试模块</strong>
+<ul>
+<li>考试界面可以设计得更加符合Windows系统的风格，例如，可以使用Windows的窗口样式和按钮风格。考试过程中，可以利用Windows系统的多任务特性，允许用户在考试时最小化窗口查看参考资料（但要限制只能查看特定的本地文档，防止作弊），这在一些需要参考大量资料的考试（如论文写作考试）中很有用。</li>
+<li>成绩反馈可以更加详细，除了错题本功能外，还可以生成详细的考试报告，以PDF格式保存在本地。报告中可以包含考试成绩曲线（显示用户多次考试的成绩变化趋势）、知识点掌握情况分析等内容。</li>
+</ul></li>
+<li><strong>学习辅助功能</strong>
+<ul>
+<li>学习计划可以与Windows系统的日历功能进行集成。例如，用户设定的学习计划可以直接同步到Windows日历中，系统会在计划的学习时间提醒用户。同时，学习资料的展示可以利用Windows的大屏幕优势，提供分屏显示功能，一边显示视频讲解，一边显示相关文字资料。</li>
+</ul></li>
+<li><strong>社交互动功能（可选）</strong>
+<ul>
+<li>学习小组的交流可以利用Windows系统的即时通讯软件集成功能。例如，用户可以在APP内直接发起一个Windows系统自带的邮件或者聊天窗口，与其他小组成员进行交流。同时，排行榜可以设计成可以导出为Excel文件的形式，方便用户进行数据分析和分享。</li>
+</ul></li>
+</ul></li>
+<li><strong>技术需求</strong>
+<ul>
+<li><strong>前端展示</strong>
+<ul>
+<li>要充分利用Windows系统的图形用户界面（GUI）特性。可以使用Windows
+Presentation Foundation（WPF）或者Windows
+Forms来开发界面。WPF支持丰富的图形和动画效果，能够创建更加美观和交互性强的界面；Windows
+Forms则更加简单易用，适合快速开发一些功能性的界面。</li>
+<li>考虑到Windows用户可能会长时间使用电脑，界面设计要注重用户体验，如合理的布局、舒适的色彩搭配等。例如，长时间阅读的文字区域可以采用淡黄色背景，减少眼睛疲劳。</li>
+</ul></li>
+<li><strong>后端处理</strong>
+<ul>
+<li>可以使用.NET Framework或者.NET
+Core作为后端开发框架。它们提供了强大的数据库访问、网络通信等功能。对于数据库，除了前面提到的MySQL外，还可以考虑使用Microsoft
+SQL Server，它与Windows系统集成度高，性能稳定。</li>
+<li>用户认证和权限管理可以利用Windows系统的安全机制。例如，可以使用Windows的用户账户系统进行认证，只有在Windows系统中已经登录的用户才能使用APP的某些功能，这样可以提高安全性。</li>
+</ul></li>
+</ul></li>
+</ol>
+<p><strong>二、设计阶段</strong></p>
+<ol type="1">
+<li><strong>界面设计</strong>
+<ul>
+<li>原型图设计要符合Windows系统的风格。可以使用Microsoft的官方设计工具（如Microsoft
+Expression
+Blend）来设计原型图，它与WPF等开发工具配合紧密。原型图要包含Windows平台特有的元素，如任务栏集成（APP图标在任务栏的显示和操作）、窗口最大化/最小化等按钮的设计。</li>
+<li>色彩方案和字体风格要与Windows系统的默认主题相协调。例如，如果Windows系统主题是深色模式，APP的界面也可以采用深色背景，字体采用清晰的等线体或者微软雅黑字体，以保持整体的一致性。</li>
+</ul></li>
+<li><strong>交互设计</strong>
+<ul>
+<li>设计鼠标和键盘的交互操作。Windows用户习惯使用鼠标进行点击、拖拽等操作，同时也会使用键盘快捷键提高操作效率。例如，在考试页面，可以设计快捷键“Ctrl
++ N”用于跳转到下一题，“Ctrl + P”用于返回上一题。</li>
+<li>考虑多窗口操作的交互设计。用户可能同时打开题库窗口、考试窗口和学习资料窗口。要设计合理的窗口切换和数据同步机制，例如，当用户在题库窗口修改了题目信息后，考试窗口能够实时更新题目内容。</li>
+</ul></li>
+</ol>
+<p><strong>三、开发阶段</strong></p>
+<ol type="1">
+<li><strong>技术选型</strong>
+<ul>
+<li><strong>前端开发</strong>
+<ul>
+<li>如果选择WPF，可以利用其数据绑定功能，方便地将后端数据（如题库数据）与前端界面元素（如列表框、文本框等）进行绑定。例如，题库列表可以绑定到一个ListView控件，当后端数据更新时，ListView控件能够自动刷新显示。</li>
+<li>如果选择Windows
+Forms，可以快速搭建功能性的界面。例如，使用简单的按钮、文本框等控件创建一个题库导入窗口，通过编写事件处理代码来实现导入功能。</li>
+</ul></li>
+<li><strong>后端开发</strong>
+<ul>
+<li>使用.NET Framework或者.NET Core开发后端逻辑。例如，使用Entity
+Framework（一个.NET的数据访问技术）来操作数据库，它可以简化数据库的增删改查操作。对于用户认证，可以使用ASP.NET
+Identity系统，它提供了完善的用户注册、登录、密码管理等功能。</li>
+</ul></li>
+</ul></li>
+<li><strong>开发过程</strong>
+<ul>
+<li>按照模块进行开发，先开发基础功能模块，如用户管理模块、题库管理模块。在开发过程中，要进行单元测试。例如，测试用户管理模块的密码加密功能，确保密码在存储和验证过程中是安全的；测试题库管理模块的题目搜索功能，检查是否能够准确搜索到符合条件的题目。</li>
+<li>进行集成测试，将各个模块组合在一起进行测试。检查模块之间的数据交互是否正常，例如，用户在题库管理模块添加了新的题目后，考试模块是否能够获取到最新的题目数据。同时，要进行性能测试，特别是在多用户同时使用的情况下，测试后端服务的响应时间和数据库的处理能力。例如，模拟100个用户同时访问题库进行搜索操作，检查系统的延迟情况。</li>
+</ul></li>
+</ol>
+<p><strong>四、测试阶段</strong></p>
+<ol type="1">
+<li><strong>功能测试</strong>
+<ul>
+<li>对所有功能进行测试。例如，测试题库的导出功能，看是否能够正确导出为用户指定的格式（如Excel、PDF等）；测试考试的自动保存功能，在用户考试过程中突然断电或者系统崩溃后，重新启动APP能否恢复之前的考试进度。</li>
+<li>测试特殊功能，如多语言支持功能。如果APP支持多种语言，要测试在切换语言后，界面元素和内容是否能够正确显示对应语言的文本。</li>
+</ul></li>
+<li><strong>兼容性测试</strong>
+<ul>
+<li>在不同的Windows版本（如Windows 7、Windows 10、Windows
+11等）上进行测试。确保APP在各个版本的Windows系统上都能正常安装和运行，界面显示正常，功能操作无误。例如，在Windows
+7系统上，测试APP是否兼容旧版本的.NET Framework；在Windows
+11系统上，测试APP是否能够利用新系统的特性（如新的窗口动画效果）。</li>
+<li>测试与Windows系统其他软件的兼容性。例如，测试APP在与常用的办公软件（如Microsoft
+Office）同时运行时，是否会相互干扰。还要测试在高分辨率显示器和多显示器环境下，APP的显示效果是否正常。</li>
+</ul></li>
+<li><strong>用户体验测试</strong>
+<ul>
+<li>邀请Windows平台的目标用户进行测试。让他们使用APP完成学习和考试任务，收集他们的反馈意见。关注用户对界面布局的评价，如菜单栏是否方便操作、工具栏按钮是否直观等；关注用户对操作流程的感受，是否觉得复杂或者不符合Windows用户的使用习惯。根据用户的反馈，对APP进行优化。</li>
+</ul></li>
+</ol>
+<p><strong>五、上线和运营阶段</strong></p>
+<ol type="1">
+<li><strong>上线准备</strong>
+<ul>
+<li>完成APP的打包和签名。使用Windows的打包工具（如Microsoft Store
+Packaging
+Tool）将APP打包成MSIX格式（类似于APK格式），并进行签名，确保应用的安全性。同时，要准备好应用的介绍文案、截图等，用于在Windows应用商店上架。</li>
+<li>选择合适的应用商店进行上架。可以将APP上架到Microsoft
+Store，这是Windows系统官方的应用商店，用户量大，可信度高。在上架过程中，要按照商店的要求填写应用信息，如应用分类、版本信息、隐私政策等。</li>
+</ul></li>
+<li><strong>运营推广</strong>
+<ul>
+<li>利用Windows系统的推广渠道。例如，可以通过Windows系统的更新推荐功能，将APP推荐给符合条件的用户。同时，可以与Windows系统的教育合作伙伴（如一些教育软件供应商）进行合作，进行联合推广。</li>
+<li>建立用户反馈机制。在APP中设置反馈入口，方便用户随时反馈使用过程中遇到的问题和建议。及时回复用户的反馈，根据用户的反馈对APP进行迭代更新，不断优化产品，提高用户满意度。</li>
+</ul></li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%B7%A5%E4%BD%9C/" rel="tag">#  工作 </a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/02/08/%E7%BB%83%E4%B9%A0%E6%B5%81%E7%A8%8B%E6%B3%95/" rel="prev" title="练习流程法2025">
+                  <i class="fa fa-angle-left"></i> 练习流程法2025
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/02/08/%E8%87%AA%E5%AD%A6%E8%87%AA%E4%B8%BB%E5%AD%A6%E4%B9%A0/" rel="next" title="自学手册">
+                  自学手册 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">逸远风沙</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":"all","tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
